@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\Daniyal Manzoor\\.virtualenvs\\Practical3-H7L4JeWC\\Scripts\\python.exe",
+    "python.formatting.provider": "autopep8"
+}
