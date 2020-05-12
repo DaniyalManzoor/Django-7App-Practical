@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Question
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 # Create your views here.
 
 
@@ -9,7 +9,11 @@ def index(request):
     return render(request, 'polls/index.html', {'latest_question_list': latest_question_list})
 
 def detail(request, question_id):
-    return HttpResponse("You are looking at questions %s" % question_id)
+    try:
+        question = Question.objects.get(pk=question_id)
+    except Question.DoesNotExist:
+        raise Http404("Question Does Not Exist")
+    return render(request, 'polls/detail.html', {'question' : question})
 
 
 def result(request, question_id):
