@@ -12,6 +12,7 @@ autopip8 = "*"
 [packages]
 django = "*"
 mysqlclient = "*"
+pylint-django = "*"
 
 [requires]
 python_version = "3.7"
