@@ -1,0 +1,65 @@
+[33mcommit 45eae542da2d55be690757c42def77ada9b81f32[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Thu May 14 17:50:45 2020 +0500
+
+    Update polls urls and view with lossely couple pattern
+
+[33mcommit 5178764b68a1ef8fa233e1b2458ce5cbd8a19e34[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Thu May 14 16:43:09 2020 +0500
+
+    add .pylintrc for avoiding objects error
+
+[33mcommit dd060c2876ca85a89b4b4b912aab82655854768d[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Tue May 12 11:15:51 2020 +0500
+
+    raises the Http404 exception if a question does not exist
+
+[33mcommit 38aa6ef292d118fbc41aad034b4931cd72a20e8e[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Tue May 12 10:58:55 2020 +0500
+
+    Update polls index.html
+
+[33mcommit 244ba1ce56d3da0399ffd5804dd530d2f08d60f1[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Tue May 12 10:19:55 2020 +0500
+
+    add index.html in polls
+
+[33mcommit 34809bf3244d09a2dba60aee042150ae82f810fb[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Tue May 12 10:02:42 2020 +0500
+
+    update polls index and add detail, result, votes method
+
+[33mcommit 830d924b16f07877b149894812aa7f9cb9f2c0ca[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Tue May 12 09:02:02 2020 +0500
+
+    create admin and add render method in index view
+
+[33mcommit b4b92bad5e310f347bc9cd0370d9a5cc536ece9b[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Mon May 11 09:26:23 2020 +0500
+
+    add __str__ in Choice and Question models
+
+[33mcommit d838d2c42b3a2451d301b7a685c2daadaf376af7[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Mon May 11 09:23:25 2020 +0500
+
+    add __str__ in Choice and Question models
+
+[33mcommit 25a70f36083d7f6f25152a27549a2e2b236e4137[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Mon May 11 09:12:21 2020 +0500
+
+    modiled pakistan timezone setting
+
+[33mcommit 0de12d717525fbd4269ab93d41cced3d28122a33[m
+Author: daniyalmanzoor28 <daniyalmanzoor28@gmail.com>
+Date:   Mon May 11 08:59:46 2020 +0500
+
+    create Django project and polls app
