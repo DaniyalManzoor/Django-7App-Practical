@@ -1,0 +1,11 @@
+body{
+    background: white url('image/img.jpg') no-repeat;
+}
+li{
+    list-style: none;
+    margin: 2px;
+}
+li a {
+    color: #000111;
+    text-decoration: none;
+}
